@@ -1,0 +1,16 @@
+platform:ios,'8.0'
+target 'SkyEyeTreasure' do
+    pod 'AFNetworking'
+    pod 'MJRefresh'
+    pod 'IQKeyboardManager'
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'GTSDK'
+    pod 'BaiduMapKit' #百度地图SDK
+    pod 'Masonry'
+    pod 'ReactiveCocoa', '~> 2.3.1'
+    pod 'JSONModel'
+    pod 'YYText'
+    pod 'SVProgressHUD'
+
+end

@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311A2F732123CE39001A8B24 /* WJUpdateNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F722123CE39001A8B24 /* WJUpdateNotificationView.m */; };
+		311A2F76212400AB001A8B24 /* WJGlobalRequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F75212400AB001A8B24 /* WJGlobalRequestManage.m */; };
+		311A2F7921241A44001A8B24 /* WJUtilityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F7821241A44001A8B24 /* WJUtilityHelper.m */; };
+		311A2F8121244C10001A8B24 /* NSObject+WZXArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F7B21244C10001A8B24 /* NSObject+WZXArchiver.m */; };
+		311A2F8221244C10001A8B24 /* WZXArchiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F7D21244C10001A8B24 /* WZXArchiverManager.m */; };
+		311A2F8321244C10001A8B24 /* NSObject+WZXProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F7E21244C10001A8B24 /* NSObject+WZXProperties.m */; };
+		311A2F8621244E70001A8B24 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F8521244E70001A8B24 /* NSArray+Log.m */; };
+		311A2F892124544E001A8B24 /* WJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F882124544E001A8B24 /* WJBaseModel.m */; };
+		311A2F8C212457D3001A8B24 /* WJLoginResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F8B212457D3001A8B24 /* WJLoginResultModel.m */; };
+		311A2F8F2124589F001A8B24 /* WJMessageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F8E2124589F001A8B24 /* WJMessageConstants.m */; };
+		311A2F922125515F001A8B24 /* WJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F912125515F001A8B24 /* WJTextField.m */; };
+		311A2F9521257128001A8B24 /* WJActionAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F9421257128001A8B24 /* WJActionAPIConstants.m */; };
+		311A2F982125787A001A8B24 /* WJNotificationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A2F972125787A001A8B24 /* WJNotificationConstants.m */; };
+		311A301321257D4F001A8B24 /* CryptoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A301121257D4F001A8B24 /* CryptoUtil.m */; };
+		311A301B21265A06001A8B24 /* WJLoginUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A301A21265A06001A8B24 /* WJLoginUserInfoModel.m */; };
+		311A301E212661DC001A8B24 /* WJAppDelegateManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A301D212661DC001A8B24 /* WJAppDelegateManage.m */; };
+		311A30212126AF95001A8B24 /* home_noWarning.gif in Resources */ = {isa = PBXBuildFile; fileRef = 311A301F2126AF94001A8B24 /* home_noWarning.gif */; };
+		311A30222126AF95001A8B24 /* home_Warning.gif in Resources */ = {isa = PBXBuildFile; fileRef = 311A30202126AF94001A8B24 /* home_Warning.gif */; };
+		311B5C932122D96B00A95B26 /* WJHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B5C922122D96B00A95B26 /* WJHomeCell.m */; };
+		311B5C962122FB4E00A95B26 /* WJHomeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B5C952122FB4E00A95B26 /* WJHomeSearchViewController.m */; };
+		311DF77B212BF76D00FE2B5F /* WJHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311DF77A212BF76D00FE2B5F /* WJHomeViewModel.m */; };
+		311DF77E212BFD0F00FE2B5F /* WJHomeResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311DF77D212BFD0F00FE2B5F /* WJHomeResultModel.m */; };
+		311DF781212BFD4B00FE2B5F /* WJOrderLaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311DF780212BFD4B00FE2B5F /* WJOrderLaterModel.m */; };
+		311DF784212BFD7800FE2B5F /* WJClientOrderInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 311DF783212BFD7800FE2B5F /* WJClientOrderInfoModel.m */; };
+		31218CE7211D622200591B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31218CE6211D622200591B59 /* AppDelegate.m */; };
+		31218CEF211D622300591B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31218CEE211D622300591B59 /* Assets.xcassets */; };
+		31218CF5211D622300591B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31218CF4211D622300591B59 /* main.m */; };
+		31218CFF211D622300591B59 /* SkyEyeTreasureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31218CFE211D622300591B59 /* SkyEyeTreasureTests.m */; };
+		31218D0A211D622300591B59 /* SkyEyeTreasureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31218D09211D622300591B59 /* SkyEyeTreasureUITests.m */; };
+		315EDCB321211BA0003A708F /* WJPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCB221211BA0003A708F /* WJPersonalViewController.m */; };
+		315EDCB621211BAB003A708F /* WJOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCB521211BAB003A708F /* WJOrderViewController.m */; };
+		315EDCC321212252003A708F /* WJSkyEyeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCBC21212252003A708F /* WJSkyEyeBaseViewController.m */; };
+		315EDCC421212252003A708F /* WJSkyEyeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCBF21212252003A708F /* WJSkyEyeTabBarController.m */; };
+		315EDCC521212252003A708F /* WJSkyEyeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCC021212252003A708F /* WJSkyEyeNavigationController.m */; };
+		315EDCD321213818003A708F /* WJConfigurationConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCD221213818003A708F /* WJConfigurationConstant.m */; };
+		315EDCD9212168A7003A708F /* WJNetWorkingManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCD8212168A7003A708F /* WJNetWorkingManage.m */; };
+		315EDCE12121A305003A708F /* KKTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCDF2121A305003A708F /* KKTableViewDataSource.m */; };
+		315EDCE82121A52A003A708F /* WJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCE42121A529003A708F /* WJHomeViewController.m */; };
+		315EDCEF2121A571003A708F /* WJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCEB2121A570003A708F /* WJLoginViewController.m */; };
+		315EDCF22121A828003A708F /* WJHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCF12121A828003A708F /* WJHomeHeaderView.m */; };
+		315EDCF52121A8FD003A708F /* WJHomeStatuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCF42121A8FD003A708F /* WJHomeStatuView.m */; };
+		315EDCFC2121AF74003A708F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 315EDCFB2121AF74003A708F /* UIColor+Hex.m */; };
+		698EA19524AE8335D5ABB813 /* libPods-SkyEyeTreasure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5396D417B84C587FAA32F4E /* libPods-SkyEyeTreasure.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31218CFB211D622300591B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31218CDA211D622200591B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31218CE1211D622200591B59;
+			remoteInfo = SkyEyeTreasure;
+		};
+		31218D06211D622300591B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31218CDA211D622200591B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31218CE1211D622200591B59;
+			remoteInfo = SkyEyeTreasure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC719833E64FDAC707A142F /* Pods-SkyEyeTreasure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyEyeTreasure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyEyeTreasure/Pods-SkyEyeTreasure.debug.xcconfig"; sourceTree = "<group>"; };
+		311A2F712123CE39001A8B24 /* WJUpdateNotificationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJUpdateNotificationView.h; sourceTree = "<group>"; };
+		311A2F722123CE39001A8B24 /* WJUpdateNotificationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJUpdateNotificationView.m; sourceTree = "<group>"; };
+		311A2F74212400AB001A8B24 /* WJGlobalRequestManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJGlobalRequestManage.h; sourceTree = "<group>"; };
+		311A2F75212400AB001A8B24 /* WJGlobalRequestManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJGlobalRequestManage.m; sourceTree = "<group>"; };
+		311A2F7721241A44001A8B24 /* WJUtilityHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJUtilityHelper.h; sourceTree = "<group>"; };
+		311A2F7821241A44001A8B24 /* WJUtilityHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJUtilityHelper.m; sourceTree = "<group>"; };
+		311A2F7B21244C10001A8B24 /* NSObject+WZXArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WZXArchiver.m"; sourceTree = "<group>"; };
+		311A2F7C21244C10001A8B24 /* NSObject+WZXProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WZXProperties.h"; sourceTree = "<group>"; };
+		311A2F7D21244C10001A8B24 /* WZXArchiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXArchiverManager.m; sourceTree = "<group>"; };
+		311A2F7E21244C10001A8B24 /* NSObject+WZXProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WZXProperties.m"; sourceTree = "<group>"; };
+		311A2F7F21244C10001A8B24 /* NSObject+WZXArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WZXArchiver.h"; sourceTree = "<group>"; };
+		311A2F8021244C10001A8B24 /* WZXArchiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXArchiverManager.h; sourceTree = "<group>"; };
+		311A2F8421244E6F001A8B24 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		311A2F8521244E70001A8B24 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		311A2F872124544E001A8B24 /* WJBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJBaseModel.h; sourceTree = "<group>"; };
+		311A2F882124544E001A8B24 /* WJBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJBaseModel.m; sourceTree = "<group>"; };
+		311A2F8A212457D3001A8B24 /* WJLoginResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLoginResultModel.h; sourceTree = "<group>"; };
+		311A2F8B212457D3001A8B24 /* WJLoginResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLoginResultModel.m; sourceTree = "<group>"; };
+		311A2F8D2124589F001A8B24 /* WJMessageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJMessageConstants.h; sourceTree = "<group>"; };
+		311A2F8E2124589F001A8B24 /* WJMessageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJMessageConstants.m; sourceTree = "<group>"; };
+		311A2F902125515F001A8B24 /* WJTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJTextField.h; sourceTree = "<group>"; };
+		311A2F912125515F001A8B24 /* WJTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTextField.m; sourceTree = "<group>"; };
+		311A2F9321257128001A8B24 /* WJActionAPIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJActionAPIConstants.h; sourceTree = "<group>"; };
+		311A2F9421257128001A8B24 /* WJActionAPIConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJActionAPIConstants.m; sourceTree = "<group>"; };
+		311A2F9621257879001A8B24 /* WJNotificationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNotificationConstants.h; sourceTree = "<group>"; };
+		311A2F972125787A001A8B24 /* WJNotificationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNotificationConstants.m; sourceTree = "<group>"; };
+		311A301121257D4F001A8B24 /* CryptoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoUtil.m; sourceTree = "<group>"; };
+		311A301221257D4F001A8B24 /* CryptoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoUtil.h; sourceTree = "<group>"; };
+		311A301921265A06001A8B24 /* WJLoginUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJLoginUserInfoModel.h; sourceTree = "<group>"; };
+		311A301A21265A06001A8B24 /* WJLoginUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJLoginUserInfoModel.m; sourceTree = "<group>"; };
+		311A301C212661DC001A8B24 /* WJAppDelegateManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJAppDelegateManage.h; sourceTree = "<group>"; };
+		311A301D212661DC001A8B24 /* WJAppDelegateManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJAppDelegateManage.m; sourceTree = "<group>"; };
+		311A301F2126AF94001A8B24 /* home_noWarning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = home_noWarning.gif; sourceTree = "<group>"; };
+		311A30202126AF94001A8B24 /* home_Warning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = home_Warning.gif; sourceTree = "<group>"; };
+		311B5C912122D96B00A95B26 /* WJHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeCell.h; sourceTree = "<group>"; };
+		311B5C922122D96B00A95B26 /* WJHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeCell.m; sourceTree = "<group>"; };
+		311B5C942122FB4E00A95B26 /* WJHomeSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeSearchViewController.h; sourceTree = "<group>"; };
+		311B5C952122FB4E00A95B26 /* WJHomeSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeSearchViewController.m; sourceTree = "<group>"; };
+		311DF779212BF76D00FE2B5F /* WJHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeViewModel.h; sourceTree = "<group>"; };
+		311DF77A212BF76D00FE2B5F /* WJHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeViewModel.m; sourceTree = "<group>"; };
+		311DF77C212BFD0F00FE2B5F /* WJHomeResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeResultModel.h; sourceTree = "<group>"; };
+		311DF77D212BFD0F00FE2B5F /* WJHomeResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeResultModel.m; sourceTree = "<group>"; };
+		311DF77F212BFD4B00FE2B5F /* WJOrderLaterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJOrderLaterModel.h; sourceTree = "<group>"; };
+		311DF780212BFD4B00FE2B5F /* WJOrderLaterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJOrderLaterModel.m; sourceTree = "<group>"; };
+		311DF782212BFD7800FE2B5F /* WJClientOrderInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJClientOrderInfoModel.h; sourceTree = "<group>"; };
+		311DF783212BFD7800FE2B5F /* WJClientOrderInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJClientOrderInfoModel.m; sourceTree = "<group>"; };
+		31218CE2211D622200591B59 /* SkyEyeTreasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyEyeTreasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31218CE5211D622200591B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31218CE6211D622200591B59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31218CEE211D622300591B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31218CF3211D622300591B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31218CF4211D622300591B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31218CFA211D622300591B59 /* SkyEyeTreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyEyeTreasureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31218CFE211D622300591B59 /* SkyEyeTreasureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyEyeTreasureTests.m; sourceTree = "<group>"; };
+		31218D00211D622300591B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31218D05211D622300591B59 /* SkyEyeTreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyEyeTreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31218D09211D622300591B59 /* SkyEyeTreasureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyEyeTreasureUITests.m; sourceTree = "<group>"; };
+		31218D0B211D622300591B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315EDCB121211BA0003A708F /* WJPersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJPersonalViewController.h; sourceTree = "<group>"; };
+		315EDCB221211BA0003A708F /* WJPersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJPersonalViewController.m; sourceTree = "<group>"; };
+		315EDCB421211BAB003A708F /* WJOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJOrderViewController.h; sourceTree = "<group>"; };
+		315EDCB521211BAB003A708F /* WJOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJOrderViewController.m; sourceTree = "<group>"; };
+		315EDCBB21212252003A708F /* WJSkyEyeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSkyEyeTabBarController.h; sourceTree = "<group>"; };
+		315EDCBC21212252003A708F /* WJSkyEyeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSkyEyeBaseViewController.m; sourceTree = "<group>"; };
+		315EDCBD21212252003A708F /* WJSkyEyeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSkyEyeNavigationController.h; sourceTree = "<group>"; };
+		315EDCBE21212252003A708F /* WJSkyEyeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSkyEyeBaseViewController.h; sourceTree = "<group>"; };
+		315EDCBF21212252003A708F /* WJSkyEyeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSkyEyeTabBarController.m; sourceTree = "<group>"; };
+		315EDCC021212252003A708F /* WJSkyEyeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSkyEyeNavigationController.m; sourceTree = "<group>"; };
+		315EDCC621212367003A708F /* SkyEyeTreasure.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyEyeTreasure.pch; sourceTree = "<group>"; };
+		315EDCC72121252D003A708F /* WJMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJMacros.h; sourceTree = "<group>"; };
+		315EDCD121213818003A708F /* WJConfigurationConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJConfigurationConstant.h; sourceTree = "<group>"; };
+		315EDCD221213818003A708F /* WJConfigurationConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJConfigurationConstant.m; sourceTree = "<group>"; };
+		315EDCD7212168A7003A708F /* WJNetWorkingManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJNetWorkingManage.h; sourceTree = "<group>"; };
+		315EDCD8212168A7003A708F /* WJNetWorkingManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJNetWorkingManage.m; sourceTree = "<group>"; };
+		315EDCDE21217DDF003A708F /* WZLSerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLSerializeKit.h; sourceTree = "<group>"; };
+		315EDCDF2121A305003A708F /* KKTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTableViewDataSource.m; sourceTree = "<group>"; };
+		315EDCE02121A305003A708F /* KKTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTableViewDataSource.h; sourceTree = "<group>"; };
+		315EDCE42121A529003A708F /* WJHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJHomeViewController.m; sourceTree = "<group>"; };
+		315EDCE52121A529003A708F /* WJHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJHomeViewController.h; sourceTree = "<group>"; };
+		315EDCEB2121A570003A708F /* WJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLoginViewController.m; sourceTree = "<group>"; };
+		315EDCEC2121A570003A708F /* WJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLoginViewController.h; sourceTree = "<group>"; };
+		315EDCF02121A828003A708F /* WJHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeHeaderView.h; sourceTree = "<group>"; };
+		315EDCF12121A828003A708F /* WJHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeHeaderView.m; sourceTree = "<group>"; };
+		315EDCF32121A8FD003A708F /* WJHomeStatuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHomeStatuView.h; sourceTree = "<group>"; };
+		315EDCF42121A8FD003A708F /* WJHomeStatuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJHomeStatuView.m; sourceTree = "<group>"; };
+		315EDCF62121ADEA003A708F /* WJTextManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJTextManage.h; sourceTree = "<group>"; };
+		315EDCFA2121AF73003A708F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		315EDCFB2121AF74003A708F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B94497E6BF3CC43D078F4A9B /* Pods-SkyEyeTreasure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyEyeTreasure.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyEyeTreasure/Pods-SkyEyeTreasure.release.xcconfig"; sourceTree = "<group>"; };
+		F5396D417B84C587FAA32F4E /* libPods-SkyEyeTreasure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SkyEyeTreasure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31218CDF211D622200591B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698EA19524AE8335D5ABB813 /* libPods-SkyEyeTreasure.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218CF7211D622300591B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218D02211D622300591B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311A2F7A21244C10001A8B24 /* WJArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F7B21244C10001A8B24 /* NSObject+WZXArchiver.m */,
+				311A2F7C21244C10001A8B24 /* NSObject+WZXProperties.h */,
+				311A2F7D21244C10001A8B24 /* WZXArchiverManager.m */,
+				311A2F7E21244C10001A8B24 /* NSObject+WZXProperties.m */,
+				311A2F7F21244C10001A8B24 /* NSObject+WZXArchiver.h */,
+				311A2F8021244C10001A8B24 /* WZXArchiverManager.h */,
+			);
+			path = WJArchiver;
+			sourceTree = "<group>";
+		};
+		311A2F9921257C04001A8B24 /* KancartCommon */ = {
+			isa = PBXGroup;
+			children = (
+				311A301221257D4F001A8B24 /* CryptoUtil.h */,
+				311A301121257D4F001A8B24 /* CryptoUtil.m */,
+			);
+			path = KancartCommon;
+			sourceTree = "<group>";
+		};
+		31218CD9211D622200591B59 = {
+			isa = PBXGroup;
+			children = (
+				31218CE4211D622200591B59 /* SkyEyeTreasure */,
+				31218CFD211D622300591B59 /* SkyEyeTreasureTests */,
+				31218D08211D622300591B59 /* SkyEyeTreasureUITests */,
+				31218CE3211D622200591B59 /* Products */,
+				87EF7D208AD68BB26359B810 /* Pods */,
+				85FE90E2F9440568B5058FE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31218CE3211D622200591B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31218CE2211D622200591B59 /* SkyEyeTreasure.app */,
+				31218CFA211D622300591B59 /* SkyEyeTreasureTests.xctest */,
+				31218D05211D622300591B59 /* SkyEyeTreasureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31218CE4211D622200591B59 /* SkyEyeTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				315EDC9A212114DF003A708F /* Expand */,
+				315EDCA2212114DF003A708F /* Main */,
+				315EDC98212114DF003A708F /* Resource */,
+				315EDC99212114DF003A708F /* Vender */,
+				31218CE5211D622200591B59 /* AppDelegate.h */,
+				31218CE6211D622200591B59 /* AppDelegate.m */,
+				31218CEE211D622300591B59 /* Assets.xcassets */,
+				31218CF3211D622300591B59 /* Info.plist */,
+				31218CF4211D622300591B59 /* main.m */,
+			);
+			path = SkyEyeTreasure;
+			sourceTree = "<group>";
+		};
+		31218CFD211D622300591B59 /* SkyEyeTreasureTests */ = {
+			isa = PBXGroup;
+			children = (
+				31218CFE211D622300591B59 /* SkyEyeTreasureTests.m */,
+				31218D00211D622300591B59 /* Info.plist */,
+			);
+			path = SkyEyeTreasureTests;
+			sourceTree = "<group>";
+		};
+		31218D08211D622300591B59 /* SkyEyeTreasureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31218D09211D622300591B59 /* SkyEyeTreasureUITests.m */,
+				31218D0B211D622300591B59 /* Info.plist */,
+			);
+			path = SkyEyeTreasureUITests;
+			sourceTree = "<group>";
+		};
+		315EDC98212114DF003A708F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				311A301F2126AF94001A8B24 /* home_noWarning.gif */,
+				311A30202126AF94001A8B24 /* home_Warning.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		315EDC99212114DF003A708F /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F9921257C04001A8B24 /* KancartCommon */,
+				311A2F7A21244C10001A8B24 /* WJArchiver */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		315EDC9A212114DF003A708F /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				315EDC9B212114DF003A708F /* Category */,
+				315EDC9C212114DF003A708F /* Network */,
+				315EDC9D212114DF003A708F /* Controls */,
+				315EDC9E212114DF003A708F /* Global */,
+				315EDCA1212114DF003A708F /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		315EDC9B212114DF003A708F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F8421244E6F001A8B24 /* NSArray+Log.h */,
+				311A2F8521244E70001A8B24 /* NSArray+Log.m */,
+				315EDCFA2121AF73003A708F /* UIColor+Hex.h */,
+				315EDCFB2121AF74003A708F /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		315EDC9C212114DF003A708F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCD7212168A7003A708F /* WJNetWorkingManage.h */,
+				315EDCD8212168A7003A708F /* WJNetWorkingManage.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		315EDC9D212114DF003A708F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F902125515F001A8B24 /* WJTextField.h */,
+				311A2F912125515F001A8B24 /* WJTextField.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		315EDC9E212114DF003A708F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				315EDC9F212114DF003A708F /* Const */,
+				315EDCA0212114DF003A708F /* Macros */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		315EDC9F212114DF003A708F /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCD121213818003A708F /* WJConfigurationConstant.h */,
+				315EDCD221213818003A708F /* WJConfigurationConstant.m */,
+				311A2F8D2124589F001A8B24 /* WJMessageConstants.h */,
+				311A2F8E2124589F001A8B24 /* WJMessageConstants.m */,
+				311A2F9321257128001A8B24 /* WJActionAPIConstants.h */,
+				311A2F9421257128001A8B24 /* WJActionAPIConstants.m */,
+				311A2F9621257879001A8B24 /* WJNotificationConstants.h */,
+				311A2F972125787A001A8B24 /* WJNotificationConstants.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		315EDCA0212114DF003A708F /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCC621212367003A708F /* SkyEyeTreasure.pch */,
+				315EDCC72121252D003A708F /* WJMacros.h */,
+				315EDCDE21217DDF003A708F /* WZLSerializeKit.h */,
+				315EDCF62121ADEA003A708F /* WJTextManage.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		315EDCA1212114DF003A708F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				311A301C212661DC001A8B24 /* WJAppDelegateManage.h */,
+				311A301D212661DC001A8B24 /* WJAppDelegateManage.m */,
+				311A2F74212400AB001A8B24 /* WJGlobalRequestManage.h */,
+				311A2F75212400AB001A8B24 /* WJGlobalRequestManage.m */,
+				315EDCE02121A305003A708F /* KKTableViewDataSource.h */,
+				315EDCDF2121A305003A708F /* KKTableViewDataSource.m */,
+				311A2F7721241A44001A8B24 /* WJUtilityHelper.h */,
+				311A2F7821241A44001A8B24 /* WJUtilityHelper.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		315EDCA2212114DF003A708F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCA3212114DF003A708F /* Order */,
+				315EDCA4212114DF003A708F /* Personal */,
+				315EDCA5212114DF003A708F /* Home */,
+				315EDCA6212114DF003A708F /* Login */,
+				315EDCA7212114DF003A708F /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		315EDCA3212114DF003A708F /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCB421211BAB003A708F /* WJOrderViewController.h */,
+				315EDCB521211BAB003A708F /* WJOrderViewController.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		315EDCA4212114DF003A708F /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCB121211BA0003A708F /* WJPersonalViewController.h */,
+				315EDCB221211BA0003A708F /* WJPersonalViewController.m */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		315EDCA5212114DF003A708F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCE32121A529003A708F /* Controller */,
+				315EDCE22121A529003A708F /* Model */,
+				315EDCE62121A529003A708F /* View */,
+				315EDCE72121A529003A708F /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		315EDCA6212114DF003A708F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCEA2121A570003A708F /* Controller */,
+				315EDCE92121A570003A708F /* Model */,
+				315EDCEE2121A571003A708F /* View */,
+				315EDCED2121A570003A708F /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		315EDCA7212114DF003A708F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCBA21212252003A708F /* BaseController */,
+				315EDCC221212252003A708F /* BaseModel */,
+				315EDCC121212252003A708F /* BaseOther */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		315EDCBA21212252003A708F /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCBB21212252003A708F /* WJSkyEyeTabBarController.h */,
+				315EDCBF21212252003A708F /* WJSkyEyeTabBarController.m */,
+				315EDCBD21212252003A708F /* WJSkyEyeNavigationController.h */,
+				315EDCC021212252003A708F /* WJSkyEyeNavigationController.m */,
+				315EDCBE21212252003A708F /* WJSkyEyeBaseViewController.h */,
+				315EDCBC21212252003A708F /* WJSkyEyeBaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		315EDCC121212252003A708F /* BaseOther */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseOther;
+			sourceTree = "<group>";
+		};
+		315EDCC221212252003A708F /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F872124544E001A8B24 /* WJBaseModel.h */,
+				311A2F882124544E001A8B24 /* WJBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		315EDCE22121A529003A708F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				311DF77C212BFD0F00FE2B5F /* WJHomeResultModel.h */,
+				311DF77D212BFD0F00FE2B5F /* WJHomeResultModel.m */,
+				311DF77F212BFD4B00FE2B5F /* WJOrderLaterModel.h */,
+				311DF780212BFD4B00FE2B5F /* WJOrderLaterModel.m */,
+				311DF782212BFD7800FE2B5F /* WJClientOrderInfoModel.h */,
+				311DF783212BFD7800FE2B5F /* WJClientOrderInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		315EDCE32121A529003A708F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCE52121A529003A708F /* WJHomeViewController.h */,
+				315EDCE42121A529003A708F /* WJHomeViewController.m */,
+				311B5C942122FB4E00A95B26 /* WJHomeSearchViewController.h */,
+				311B5C952122FB4E00A95B26 /* WJHomeSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		315EDCE62121A529003A708F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCF02121A828003A708F /* WJHomeHeaderView.h */,
+				315EDCF12121A828003A708F /* WJHomeHeaderView.m */,
+				315EDCF32121A8FD003A708F /* WJHomeStatuView.h */,
+				315EDCF42121A8FD003A708F /* WJHomeStatuView.m */,
+				311B5C912122D96B00A95B26 /* WJHomeCell.h */,
+				311B5C922122D96B00A95B26 /* WJHomeCell.m */,
+				311A2F712123CE39001A8B24 /* WJUpdateNotificationView.h */,
+				311A2F722123CE39001A8B24 /* WJUpdateNotificationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		315EDCE72121A529003A708F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				311DF779212BF76D00FE2B5F /* WJHomeViewModel.h */,
+				311DF77A212BF76D00FE2B5F /* WJHomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		315EDCE92121A570003A708F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				311A2F8A212457D3001A8B24 /* WJLoginResultModel.h */,
+				311A2F8B212457D3001A8B24 /* WJLoginResultModel.m */,
+				311A301921265A06001A8B24 /* WJLoginUserInfoModel.h */,
+				311A301A21265A06001A8B24 /* WJLoginUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		315EDCEA2121A570003A708F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				315EDCEC2121A570003A708F /* WJLoginViewController.h */,
+				315EDCEB2121A570003A708F /* WJLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		315EDCED2121A570003A708F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		315EDCEE2121A571003A708F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85FE90E2F9440568B5058FE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5396D417B84C587FAA32F4E /* libPods-SkyEyeTreasure.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87EF7D208AD68BB26359B810 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC719833E64FDAC707A142F /* Pods-SkyEyeTreasure.debug.xcconfig */,
+				B94497E6BF3CC43D078F4A9B /* Pods-SkyEyeTreasure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31218CE1211D622200591B59 /* SkyEyeTreasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31218D0E211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasure" */;
+			buildPhases = (
+				6EFC0CAC6FC92303CDB5545A /* [CP] Check Pods Manifest.lock */,
+				31218CDE211D622200591B59 /* Sources */,
+				31218CDF211D622200591B59 /* Frameworks */,
+				31218CE0211D622200591B59 /* Resources */,
+				7F5465EB287D8D6480A3C3BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyEyeTreasure;
+			productName = SkyEyeTreasure;
+			productReference = 31218CE2211D622200591B59 /* SkyEyeTreasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31218CF9211D622300591B59 /* SkyEyeTreasureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31218D11211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasureTests" */;
+			buildPhases = (
+				31218CF6211D622300591B59 /* Sources */,
+				31218CF7211D622300591B59 /* Frameworks */,
+				31218CF8211D622300591B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31218CFC211D622300591B59 /* PBXTargetDependency */,
+			);
+			name = SkyEyeTreasureTests;
+			productName = SkyEyeTreasureTests;
+			productReference = 31218CFA211D622300591B59 /* SkyEyeTreasureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31218D04211D622300591B59 /* SkyEyeTreasureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31218D14211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasureUITests" */;
+			buildPhases = (
+				31218D01211D622300591B59 /* Sources */,
+				31218D02211D622300591B59 /* Frameworks */,
+				31218D03211D622300591B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31218D07211D622300591B59 /* PBXTargetDependency */,
+			);
+			name = SkyEyeTreasureUITests;
+			productName = SkyEyeTreasureUITests;
+			productReference = 31218D05211D622300591B59 /* SkyEyeTreasureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31218CDA211D622200591B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "王兵";
+				TargetAttributes = {
+					31218CE1211D622200591B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					31218CF9211D622300591B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 31218CE1211D622200591B59;
+					};
+					31218D04211D622300591B59 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 31218CE1211D622200591B59;
+					};
+				};
+			};
+			buildConfigurationList = 31218CDD211D622200591B59 /* Build configuration list for PBXProject "SkyEyeTreasure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31218CD9211D622200591B59;
+			productRefGroup = 31218CE3211D622200591B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31218CE1211D622200591B59 /* SkyEyeTreasure */,
+				31218CF9211D622300591B59 /* SkyEyeTreasureTests */,
+				31218D04211D622300591B59 /* SkyEyeTreasureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31218CE0211D622200591B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311A30222126AF95001A8B24 /* home_Warning.gif in Resources */,
+				31218CEF211D622300591B59 /* Assets.xcassets in Resources */,
+				311A30212126AF95001A8B24 /* home_noWarning.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218CF8211D622300591B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218D03211D622300591B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EFC0CAC6FC92303CDB5545A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyEyeTreasure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F5465EB287D8D6480A3C3BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkyEyeTreasure/Pods-SkyEyeTreasure-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyEyeTreasure/Pods-SkyEyeTreasure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31218CDE211D622200591B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311DF77E212BFD0F00FE2B5F /* WJHomeResultModel.m in Sources */,
+				311A2F8F2124589F001A8B24 /* WJMessageConstants.m in Sources */,
+				311A2F8321244C10001A8B24 /* NSObject+WZXProperties.m in Sources */,
+				311DF781212BFD4B00FE2B5F /* WJOrderLaterModel.m in Sources */,
+				311A301B21265A06001A8B24 /* WJLoginUserInfoModel.m in Sources */,
+				311B5C932122D96B00A95B26 /* WJHomeCell.m in Sources */,
+				315EDCFC2121AF74003A708F /* UIColor+Hex.m in Sources */,
+				315EDCC421212252003A708F /* WJSkyEyeTabBarController.m in Sources */,
+				315EDCF52121A8FD003A708F /* WJHomeStatuView.m in Sources */,
+				315EDCE82121A52A003A708F /* WJHomeViewController.m in Sources */,
+				311A2F8621244E70001A8B24 /* NSArray+Log.m in Sources */,
+				315EDCB321211BA0003A708F /* WJPersonalViewController.m in Sources */,
+				315EDCD321213818003A708F /* WJConfigurationConstant.m in Sources */,
+				315EDCC521212252003A708F /* WJSkyEyeNavigationController.m in Sources */,
+				311A2F922125515F001A8B24 /* WJTextField.m in Sources */,
+				311B5C962122FB4E00A95B26 /* WJHomeSearchViewController.m in Sources */,
+				31218CF5211D622300591B59 /* main.m in Sources */,
+				311A2F8C212457D3001A8B24 /* WJLoginResultModel.m in Sources */,
+				311A2F76212400AB001A8B24 /* WJGlobalRequestManage.m in Sources */,
+				315EDCC321212252003A708F /* WJSkyEyeBaseViewController.m in Sources */,
+				311A2F7921241A44001A8B24 /* WJUtilityHelper.m in Sources */,
+				311DF784212BFD7800FE2B5F /* WJClientOrderInfoModel.m in Sources */,
+				311A2F892124544E001A8B24 /* WJBaseModel.m in Sources */,
+				311A301321257D4F001A8B24 /* CryptoUtil.m in Sources */,
+				311A2F8221244C10001A8B24 /* WZXArchiverManager.m in Sources */,
+				311DF77B212BF76D00FE2B5F /* WJHomeViewModel.m in Sources */,
+				311A2F732123CE39001A8B24 /* WJUpdateNotificationView.m in Sources */,
+				311A2F8121244C10001A8B24 /* NSObject+WZXArchiver.m in Sources */,
+				315EDCEF2121A571003A708F /* WJLoginViewController.m in Sources */,
+				311A2F982125787A001A8B24 /* WJNotificationConstants.m in Sources */,
+				315EDCB621211BAB003A708F /* WJOrderViewController.m in Sources */,
+				315EDCF22121A828003A708F /* WJHomeHeaderView.m in Sources */,
+				311A2F9521257128001A8B24 /* WJActionAPIConstants.m in Sources */,
+				315EDCD9212168A7003A708F /* WJNetWorkingManage.m in Sources */,
+				311A301E212661DC001A8B24 /* WJAppDelegateManage.m in Sources */,
+				315EDCE12121A305003A708F /* KKTableViewDataSource.m in Sources */,
+				31218CE7211D622200591B59 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218CF6211D622300591B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31218CFF211D622300591B59 /* SkyEyeTreasureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31218D01211D622300591B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31218D0A211D622300591B59 /* SkyEyeTreasureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31218CFC211D622300591B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31218CE1211D622200591B59 /* SkyEyeTreasure */;
+			targetProxy = 31218CFB211D622300591B59 /* PBXContainerItemProxy */;
+		};
+		31218D07211D622300591B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31218CE1211D622200591B59 /* SkyEyeTreasure */;
+			targetProxy = 31218D06211D622300591B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31218D0C211D622300591B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31218D0D211D622300591B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31218D0F211D622300591B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC719833E64FDAC707A142F /* Pods-SkyEyeTreasure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSA88Z8RUN;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SkyEyeTreasure/Expand/Global/Macros/SkyEyeTreasure.pch;
+				INFOPLIST_FILE = SkyEyeTreasure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.app.skyeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		31218D10211D622300591B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94497E6BF3CC43D078F4A9B /* Pods-SkyEyeTreasure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSA88Z8RUN;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SkyEyeTreasure/Expand/Global/Macros/SkyEyeTreasure.pch;
+				INFOPLIST_FILE = SkyEyeTreasure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.app.skyeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		31218D12211D622300591B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVSF4Q389Z;
+				INFOPLIST_FILE = SkyEyeTreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WJ.SkyEyeTreasureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyEyeTreasure.app/SkyEyeTreasure";
+			};
+			name = Debug;
+		};
+		31218D13211D622300591B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVSF4Q389Z;
+				INFOPLIST_FILE = SkyEyeTreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WJ.SkyEyeTreasureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyEyeTreasure.app/SkyEyeTreasure";
+			};
+			name = Release;
+		};
+		31218D15211D622300591B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVSF4Q389Z;
+				INFOPLIST_FILE = SkyEyeTreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WJ.SkyEyeTreasureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyEyeTreasure;
+			};
+			name = Debug;
+		};
+		31218D16211D622300591B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EVSF4Q389Z;
+				INFOPLIST_FILE = SkyEyeTreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WJ.SkyEyeTreasureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyEyeTreasure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31218CDD211D622200591B59 /* Build configuration list for PBXProject "SkyEyeTreasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31218D0C211D622300591B59 /* Debug */,
+				31218D0D211D622300591B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31218D0E211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31218D0F211D622300591B59 /* Debug */,
+				31218D10211D622300591B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31218D11211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31218D12211D622300591B59 /* Debug */,
+				31218D13211D622300591B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31218D14211D622300591B59 /* Build configuration list for PBXNativeTarget "SkyEyeTreasureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31218D15211D622300591B59 /* Debug */,
+				31218D16211D622300591B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31218CDA211D622200591B59 /* Project object */;
+}

@@ -1,0 +1,52 @@
+//
+//  SkyEyeTreasure.pch
+//  SkyEyeTreasure
+//
+//  Created by 王兵 on 2018/8/13.
+//  Copyright © 2018年 王兵. All rights reserved.
+//
+
+#ifndef SkyEyeTreasure_pch
+#define SkyEyeTreasure_pch
+
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "WJConfigurationConstant.h"
+#import "WJMacros.h"
+#import "WJMessageConstants.h"
+#import "WJActionAPIConstants.h"
+#import "WJNotificationConstants.h"
+
+#import "Masonry.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+
+
+
+#import "KKTableViewDataSource.h"
+#import "WJTextManage.h"
+#import "UIColor+Hex.h"
+#import <YYText/YYText.h>
+#import <WebKit/WebKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "WJNetWorkingManage.h"
+#import "WJGlobalRequestManage.h"
+#import "WJUtilityHelper.h"
+#import "CryptoUtil.h"
+
+#import <JSONModel.h>
+#import "WJLoginUserInfoModel.h"
+#import "MJRefresh.h"
+
+
+
+
+
+#import "AppDelegate.h"
+#import "WJAppDelegateManage.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SkyEyeTreasure_pch */
